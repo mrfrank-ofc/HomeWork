@@ -13,14 +13,10 @@ body {
 
 /* Estilos globais */
 body {
-  @apply bg-background-light text-text-light; /* Cores para o tema claro */
+  @apply bg-light text-textLight; /* Cores para o tema claro */
 }
 
 /* Tema Escuro */
-.dark {
-  body {
-    @apply bg-background-dark text-text-dark; /* Cores para o tema escuro */
-  }
-  
-  /* Adapte ou adicione mais estilos específicos do tema escuro aqui */
+.dark body {
+  @apply bg-dark text-textDark; /* Cores para o tema escuro */
 }
