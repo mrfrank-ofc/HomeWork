@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset básico */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos globais */
+body {
+  @apply bg-background-light text-text-light; /* Cores para o tema claro */
+}
+
+/* Tema Escuro */
+.dark {
+  body {
+    @apply bg-background-dark text-text-dark; /* Cores para o tema escuro */
+  }
+  
+  /* Adapte ou adicione mais estilos específicos do tema escuro aqui */
+}
