@@ -17,6 +17,9 @@ export default {
         headingLight: '#2d2e32',
         headingDark: '#f3f4f6',
       },
+      boxShadow: {
+        custom: '0 0 15px 5px rgba(0, 0, 0, 0.09)',
+      },
     },
   },
   plugins: [],

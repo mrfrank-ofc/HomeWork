@@ -1,9 +1,13 @@
 import ThemeToggle from '../../components/ThemeToggle'
+import Header from '../../components/common/Header'
 
 const HomePage = () => {
   return (
-    <>
-      <div className='p-4 bg-light dark:bg-dark text-textLight dark:text-textDark'>
+    <main className='flex flex-col'>
+    
+    <Header />
+    
+      <div className='p-4 bg-light dark:bg-dark text-textLight dark:text-textDark mt-16 '>
         <ThemeToggle></ThemeToggle>
 
         <h1 className='font-heading text-3xl text-headingLight font-bold dark:text-headingDark'>
@@ -15,7 +19,7 @@ const HomePage = () => {
         </p>
         {/* Adicione mais conteúdo e componentes aqui conforme necessário */}
       </div>
-    </>
+    </main>
   )
 }
 
