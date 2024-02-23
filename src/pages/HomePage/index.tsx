@@ -2,6 +2,7 @@
 import Header from '../../components/common/Header';
 import AboutMe from '../../components/sections/AboutMe';
 import About from '../../components/sections/Home';
+import ProjectsScreen from '../../components/sections/ProjectCard';
 
 const HomePage = () => {
   return (
@@ -15,7 +16,9 @@ const HomePage = () => {
           <AboutMe />
         
           </section>
-        
+        <section>
+        <ProjectsScreen/>
+        </section>
 
          
         {/* Adicione mais seções conforme necessário, cada uma ocupando 100vh */}
