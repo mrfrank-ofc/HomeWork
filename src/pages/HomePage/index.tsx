@@ -1,26 +1,27 @@
-import ThemeToggle from '../../components/ThemeToggle'
-import Header from '../../components/common/Header'
+
+import Header from '../../components/common/Header';
+import AboutMe from '../../components/sections/AboutMe';
+import About from '../../components/sections/Home';
 
 const HomePage = () => {
   return (
-    <main className='flex flex-col'>
-    
-    <Header />
-    
-      <div className='p-4 bg-light dark:bg-dark text-textLight dark:text-textDark mt-16 '>
-        <ThemeToggle></ThemeToggle>
+    <div>
+      <Header />
+      <main className='flex flex-col pt-32   '>
+       
+        <section  id='home'>
 
-        <h1 className='font-heading text-3xl text-headingLight font-bold dark:text-headingDark'>
-          Bem-vindo ao Meu Portfólio
-        </h1>
-        <p className='font-body text-textLight dark:text-textDark'>
-          Aqui você encontrará informações sobre meus projetos, habilidades e
-          experiência profissional.
-        </p>
-        {/* Adicione mais conteúdo e componentes aqui conforme necessário */}
-      </div>
-    </main>
-  )
+          <About name='João' bio="I'm a front End developer" />
+          <AboutMe />
+        
+          </section>
+        
+
+         
+        {/* Adicione mais seções conforme necessário, cada uma ocupando 100vh */}
+      </main>
+    </div>
+  );
 }
 
-export default HomePage
+export default HomePage;

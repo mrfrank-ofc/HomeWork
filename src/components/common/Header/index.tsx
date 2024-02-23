@@ -1,37 +1,17 @@
-const Header = () => {
-  const handleMenuClick = () => {
-    console.log("Button Clicked!");
-    
-  }
+import React from 'react';
+import ThemeToggle from '../../ThemeToggle';
+import Nav from '../../layout/Nav';
+
+const Header: React.FC = () => {
   return (
-    <>
-<div className="shadow-custom ">
+    <header className='flex items-center justify-between p-6 w-screen fixed top-0 z-50 bg-white dark:bg-dark shadow-custom'>
+      <div className='text-xl font-bold'>
+        Joaomsdev <ThemeToggle />
+      </div>
 
-    <header className='flex items-center shadow-custom justify-between p-6 fixed w-screen'>
-
-
-      <div className='text-xl font-bold '>Joaomsdev</div>
-      <button onClick={handleMenuClick} className='text-xl'>
-        <svg
-          xmlns='http://www.w3.org/2000/svg'
-          fill='none'
-          viewBox='0 0 24 24'
-          stroke='currentColor'
-          className='w-8 h-8'
-        >
-          <path
-            strokeLinecap='round'
-            strokeLinejoin='round'
-            strokeWidth={2}
-            d='M4 6h16M4 12h16m-7 6h8'
-          />
-        </svg>
-      </button>
+      <Nav />
     </header>
-    </div>
-    </>
+  );
+};
 
-  )
-}
-
-export default Header
+export default Header;

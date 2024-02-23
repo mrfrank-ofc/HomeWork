@@ -11,6 +11,13 @@ body {
   padding: 0;
 }
 
+.gradient-text {
+  background-image: linear-gradient(45deg, #13B0F5 0%, #E70FAA 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; /* Pode não ser reconhecido em todos os navegadores */
+}
 /* Estilos globais */
 body {
   @apply bg-light text-textLight; /* Cores para o tema claro */
