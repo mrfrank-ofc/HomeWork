@@ -13,8 +13,8 @@ const ProjectsScreen: React.FC = () => {
   }
 
   return (
-    <div className='md:px-10 lg:px-20 xl:px-40 py-12 bg-Light dark:bg-Dark min-h-screen'>
-      <h2 className='text-3xl font-bold mb-8 text-center font-heading'>
+    <div className='md:px-10 lg:px-20 xl:px-40 py-12 bg-Light dark:bg-Dark '>
+      <h2 className='text-3xl font-bold mb-8 gradient-text text-center font-heading '>
         Projects
       </h2>
       <h3 className='text-xl mb-12 text-center font-body'>
