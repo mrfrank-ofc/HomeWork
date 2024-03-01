@@ -1,8 +1,9 @@
 
 import Header from '../../components/common/Header';
-import AboutMe from '../../components/sections/AboutMe';
+import MyStack from '../../components/sections/MyStack';
 import About from '../../components/sections/Home';
 import ProjectsScreen from '../../components/sections/ProjectCard';
+import AboutMe from '../../components/sections/AboutMe';
 
 const HomePage = () => {
   return (
@@ -13,10 +14,14 @@ const HomePage = () => {
         <section  id='home'>
 
           <About name='João' bio="I'm a front End developer" />
-          <AboutMe />
+          <MyStack />
+          <section id='about'>
+          <AboutMe  />
+
+          </section>
         
           </section>
-        <section>
+        <section id='projects'>
         <ProjectsScreen/>
         </section>
 

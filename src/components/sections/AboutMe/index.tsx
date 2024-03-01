@@ -1,47 +1,30 @@
-import React from 'react'
+// AboutMe.tsx
+import foto from '../../../assets/images/foto.webp';
 
-import { useMenuContext } from '../../../context/MenuContext';
-
-const AboutMe: React.FC = () => {
-  const { isMenuOpen } = useMenuContext();
-
+const AboutMe = () => {
   return (
-    <section className={`${isMenuOpen ? 'hidden' : 'flex'} flex-col gap-7 items-center md:items-center text-center md:text-left p-8 md:justify-center`}>
-      <h2 className='font-heading text-2xl font-bold'>My tech Stack</h2>
-      <p className='font-body'> Technologies I’ve been working with recently</p>
-      <div className='grid  grid-rows-2 grid-cols-2 justify-center gap-6 mt-4  md:grid md:grid-rows-2 md:grid-cols-3 md:gap-8 z-0'>
-    
-        <img src='https://skillicons.dev/icons?i=js,ts' alt='JavaScript,TypeScript' className='transition duration-300 ease-in-out transform hover:scale-110 '/>
-        <img
-          src='https://skillicons.dev/icons?i=next,react'
-          alt='Next, React'
-          className='transition duration-300 ease-in-out transform hover:scale-110 '
-        />
-
-        <img
-          src='https://skillicons.dev/icons?i=nodejs,mysql'
-          alt='NodeJS, MySql'
-          className='transition duration-300 ease-in-out transform hover:scale-110'
-        />
-        <img
-          src='https://skillicons.dev/icons?i=tailwind,styledcomponents'
-          alt='Tailwind, Styled-components'
-          className='transition duration-300 ease-in-out transform hover:scale-110'
-        />
- <img
-          src='https://skillicons.dev/icons?i=git,github'
-          alt='Git, GitHub'
-          className='transition duration-300 ease-in-out transform hover:scale-110'
-        />
-         <img
-          src='https://skillicons.dev/icons?i=html,css'
-          alt='HTML5,CSS3'
-          className='transition duration-300 ease-in-out transform hover:scale-110'
-        />
-      
+    <div className="bg-sectionLight dark:bg-sectionDark text-textLight dark:text-textDark px-4 md:p-24">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-evenly">
+        {/* Image container */}
+        <div className="mb-8 md:mb-0 w-full md:w-auto flex justify-center md:justify-start">
+          <img src={foto} alt="Programador" className="w-60 md:w-72 h-auto rounded-lg shadow-custom" />
+        </div>
+        {/* Text container */}
+        <div className="flex flex-col items-center md:items-start text-center md:text-left">
+          <h1 className='font-heading text-lg md:text-xl lg:text-2xl gradient-text font-bold'>About Me</h1>
+          <h4 className="font-heading text-2xl md:text-3xl lg:text-4xl dark:text-headingDark mb-3">
+            Full-Stack Developer based in Maceió, Alagoas 📍
+          </h4>
+          <p className="font-body">
+            Hey, my name is João, and I'm a FulStack Developer dedicated to engineering intuitive and visually polished user experiences.
+          </p>
+          <p className="font-body mt-3">
+            My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.
+          </p>
+        </div>
       </div>
-    </section>
-  )
-}
+    </div>
+  );
+};
 
-export default AboutMe
+export default AboutMe;
