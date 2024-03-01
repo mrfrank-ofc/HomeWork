@@ -10,7 +10,7 @@ interface HomeProps {
 
 const Home: React.FC <HomeProps> = ({name,bio,}) => {
   return (
-    <section className="flex flex-col md:flex-row-reverse items-center md:items-center text-center md:text-left p-8 md:justify-center ">
+    <section className="flex flex-col md:flex-row-reverse items-center md:items-center text-center md:text-left py-24 md:justify-center ">
         <div className="inline-block ">
         <img src={memomojiImage} alt={name} className="h-32 w-32 rounded-full md:mr-8 bg-" />
       </div>
