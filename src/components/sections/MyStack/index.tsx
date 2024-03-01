@@ -7,7 +7,7 @@ const MyStack: React.FC = () => {
 
   return (
     <section className={`${isMenuOpen ? 'hidden' : 'flex'} flex-col gap-7 items-center md:items-center text-center md:text-left p-20 md:justify-center`}>
-      <h2 className='font-heading text-2xl font-bold'>My tech Stack</h2>
+      <h2 className='font-heading text-2xl font-bold gradient-text' >My tech Stack</h2>
       <p className='font-body'> Technologies I’ve been working with recently</p>
       <div className='grid  grid-rows-2 grid-cols-2 justify-center gap-6 mt-4  md:grid md:grid-rows-2 md:grid-cols-3 md:gap-8 z-0'>
     

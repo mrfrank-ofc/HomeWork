@@ -1,35 +1,33 @@
-
-import Header from '../../components/common/Header';
-import MyStack from '../../components/sections/MyStack';
-import About from '../../components/sections/Home';
-import ProjectsScreen from '../../components/sections/ProjectCard';
-import AboutMe from '../../components/sections/AboutMe';
+import Header from '../../components/common/Header'
+import MyStack from '../../components/sections/MyStack'
+import About from '../../components/sections/Home'
+import ProjectsScreen from '../../components/sections/ProjectCard'
+import AboutMe from '../../components/sections/AboutMe'
+import Contact from '../../components/sections/Contact'
 
 const HomePage = () => {
   return (
     <div>
       <Header />
-      <main className='flex flex-col pt-32   '>
-       
-        <section  id='home'>
-
+      <main className='flex flex-col pt-20   '>
+        <section id='home'>
           <About name='João' bio="I'm a front End developer" />
           <MyStack />
           <section id='about'>
-          <AboutMe  />
-
+            <AboutMe />
           </section>
-        
-          </section>
+        </section>
         <section id='projects'>
-        <ProjectsScreen/>
+          <ProjectsScreen />
+        </section> <br />
+
+        <section id='contact'>
+          <Contact />
         </section>
 
-         
-        {/* Adicione mais seções conforme necessário, cada uma ocupando 100vh */}
       </main>
     </div>
-  );
+  )
 }
 
-export default HomePage;
+export default HomePage
