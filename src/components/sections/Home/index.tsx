@@ -18,7 +18,7 @@ const Home: React.FC <HomeProps> = ({name,bio,}) => {
 
     <h1 className="text-2xl font-bold font-heading">Hi 👋</h1>
     <h2 className="text-xl  font-bold font-heading">My name is
-    <span className='gradient-text'> {name}</span>  </h2>
+    <span className='gradient-text'> Darrell Mucheri !</span>  </h2>
     <p className='text-xl  font-bold font-heading'>{bio}</p>
     </div>
 
