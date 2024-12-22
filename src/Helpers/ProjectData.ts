@@ -24,7 +24,7 @@ export const projects: Project[] = [
     imageUrl: serra,
     techStack: ['HTML', 'JavaScript', 'Sass', 'React'],
     previewUrl: 'https://mrfrankinc.vercel.app/projects.html',
-    codeUrl: 'https://mrfrank-ofc/e-commerce-website',
+    codeUrl: 'https://github.com/mrfrank-ofc/e-commerce-website',
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     imageUrl: gif,
     techStack: ['HTML', 'JavaScript', 'Sass', 'React'],
     previewUrl: 'https://var-2.vercel.app/',
-    codeUrl: 'https://mrfrank-ofc/school-management-system',
+    codeUrl: 'https://github.com/mrfrank-ofc/school-management-system',
   },
   {
     id: 4,
@@ -44,6 +44,6 @@ export const projects: Project[] = [
     imageUrl: opiniao,
     techStack: ['HTML', 'JavaScript', 'Sass', 'React'],
     previewUrl: 'https://wa.me/263719647303/?text=Hi+Darrell+Can+I+Use+SubZero+AI',
-    codeUrl: 'https://mrfrank-ofc/SUBZERO-V2',
+    codeUrl: 'https://github.com/mrfrank-ofc/SUBZERO-V2',
   },
 ]
