@@ -13,13 +13,13 @@ const AboutMe = () => {
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <h1 className='font-heading text-lg md:text-xl lg:text-2xl gradient-text font-bold'>About Me</h1>
           <h4 className="font-heading text-2xl md:text-3xl lg:text-4xl dark:text-headingDark mb-3">
-            Full-Stack Developer based in Maceió, Alagoas 📍
+            Front-End Developer based in Zimbabwe , Harare 📍
           </h4>
           <p className="font-body">
-            Hey, my name is João, and I'm a FulStack Developer dedicated to engineering intuitive and visually polished user experiences.
+            Hey, my name is Darrell M, and I'm a Front End Developer dedicated to engineering intuitive and visually polished user experiences.
           </p>
           <p className="font-body mt-3">
-            My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.
+            My main stack currently is JavaScript in combination with  CSS, NodeJs, SQL, TypeScript.
           </p>
         </div>
       </div>
