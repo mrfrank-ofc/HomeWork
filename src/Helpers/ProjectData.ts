@@ -43,7 +43,7 @@ export const projects: Project[] = [
       'A robust whatsapp chat bot that uses API endpoints to download media & use AI features through ChatGpt Tokens.',
     imageUrl: opiniao,
     techStack: ['HTML', 'JavaScript', 'Sass', 'React'],
-    previewUrl: 'https://wa.me/2637196473303/?text=Hi+Darrell+Can+I+Use+SubZero+AI',
+    previewUrl: 'https://wa.me/263719647303/?text=Hi+Darrell+Can+I+Use+SubZero+AI',
     codeUrl: 'https://mrfrank-ofc/SUBZERO-V2',
   },
 ]
