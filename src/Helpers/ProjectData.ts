@@ -8,42 +8,42 @@ export const projects: Project[] = [
   // Adicione seus projetos aqui
   {
     id: 1,
-    title: 'Vassen Car Care Landing Page',
+    title: 'DevFolio',
     description:
       ' Desenvolver um site moderno e intuitivo para seu curso premium de polimento e vitrificação. Estou muito satisfeito por ajudar a trazer esse resultado que o cliente adorou.   ',
     imageUrl: vassen,
     techStack: ['HTML', 'JavaScript', 'Sass', 'React'],
-    previewUrl: 'https://www.vassencarcare.com/',
-    codeUrl: 'https://codeurl.com',
+    previewUrl: 'https://mrfrankinc.vercel.app/projects.html',
+    codeUrl: 'https://mrfrankinc.vercel.app/projects.html',
   },
   {
     id: 2,
-    title: 'Serra da Barriga ',
+    title: 'EcoBot ',
     description:
       'WEB APP com realidade aumentada da Serra da Barriga - Patrimônio Cultural Brasileiro inscrito no Livro do Tombo Histórico. ',
     imageUrl: serra,
     techStack: ['HTML', 'JavaScript', 'Sass', 'React'],
-    previewUrl: 'https://github.com/joaosmendess',
-    codeUrl: 'https://serra-barriga.vercel.app/',
+    previewUrl: 'https://mrfrankinc.vercel.app/projects.html',
+    codeUrl: 'https://mrfrankinc.vercel.app/projects.html',
   },
   {
     id: 3,
-    title: 'Dashboard Finance',
+    title: 'School DBMS',
     description:
       ' Dashboard para monitorar a carteira de investimentos pessoais, feito de forma responsiva e intuitiva',
     imageUrl: gif,
     techStack: ['HTML', 'JavaScript', 'Sass', 'React'],
-    previewUrl: 'https://dashboard-finance-two.vercel.app/',
-    codeUrl: 'https://github.com/joaosmendess/DASHBOARD-FINANCE',
+    previewUrl: 'https://mrfrankinc.vercel.app/projects.html',
+    codeUrl: 'https://mrfrankinc.vercel.app/projects.html',
   },
   {
     id: 4,
-    title: 'OpinaWeb',
+    title: 'SubZero AI',
     description:
       'OpineWeb é uma plataforma web para avaliação de serviços, permitindo que clientes forneçam feedbacks rápidos e diretos sobre serviços recebidos. Desenvolvida com React e Node.js, e utilizando MySQL para gestão de dados, a aplicação foca na melhoria contínua da qualidade de serviços através de avaliações claras e eficientes.',
     imageUrl: opiniao,
     techStack: ['HTML', 'JavaScript', 'Sass', 'React'],
-    previewUrl: 'https://avaliaweb-4fw0wuojm-joaosmendess.vercel.app/',
-    codeUrl: 'https://codeurl.com',
+    previewUrl: 'https://mrfrankinc.vercel.app/projects.html',
+    codeUrl: 'https://mrfrankinc.vercel.app/projects.html',
   },
 ]
