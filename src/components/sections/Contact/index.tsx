@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
                     <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
                     <path d="M20.2 20.2l1.8 1.8"></path>
                   </svg>
-                  <span className="">Maceió, AL</span>
+                  <span className="">Zimbabwe, Harare, Chitungwiza</span>
                 </div>
               </div>
 
@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
                     <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
                     <path d="M3 7l9 6l9 -6"></path>
                   </svg>
-                  <a href="mailto:joaomsdev@gmail.com" className="underline ">joaomsdev@gmail.com</a>
+                  <a href="mailto:darrelmucheri@gmail.com" className="underline ">darrelmucheri@gmail.com</a>
                 </div>
               </div>
 
